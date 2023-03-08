@@ -1,0 +1,42 @@
+header {
+    display: inline-flex;
+    align-items: center;
+    margin: 40px 10%;
+    width: 80%;
+  }
+  
+  header img {
+    height: 68px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  
+  .navigation {
+    color: #ff6060;
+    margin: auto 25px;
+  }
+  .navigation:hover {
+    color: #000000;
+  }
+  
+  .navigation.active {
+  }
+  
+  @media screen and (max-width: 1490px) {
+    header {
+      margin: 40px 2.5%;
+      width: 95%;
+    }
+    
+    img {
+      height: 47px;
+    }
+  
+    .navigation {
+      margin: auto 5px;
+    }
+  }
